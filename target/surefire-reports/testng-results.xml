@@ -2,18 +2,18 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="91114" started-at="2020-07-06T07:33:12Z" finished-at="2020-07-06T07:34:43Z">
+  <suite name="Surefire suite" duration-ms="69107" started-at="2020-07-06T11:20:51Z" finished-at="2020-07-06T11:22:00Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="91114" started-at="2020-07-06T07:33:12Z" finished-at="2020-07-06T07:34:43Z">
+    <test name="Surefire test" duration-ms="69107" started-at="2020-07-06T11:20:51Z" finished-at="2020-07-06T11:22:00Z">
       <class name="com.stories.Stories">
-        <test-method status="FAIL" signature="run()[pri:0, instance:run(com.stories.Stories)]" name="run" duration-ms="90838" started-at="2020-07-06T13:03:12Z" finished-at="2020-07-06T13:04:43Z">
+        <test-method status="FAIL" signature="run()[pri:0, instance:run(com.stories.Stories)]" name="run" duration-ms="68823" started-at="2020-07-06T16:50:51Z" finished-at="2020-07-06T16:52:00Z">
           <exception class="org.jbehave.core.embedder.Embedder$RunningStoriesFailed">
             <message>
-              <![CDATA[Failures in running stories: ReportsCount[stories=2,storiesNotAllowed=0,storiesPending=0,scenarios=5,scenariosFailed=4,scenariosNotAllowed=0,scenariosPending=0,stepsFailed=4]]]>
+              <![CDATA[Failures in running stories: ReportsCount[stories=2,storiesNotAllowed=0,storiesPending=1,scenarios=5,scenariosFailed=4,scenariosNotAllowed=0,scenariosPending=1,stepsFailed=4]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.jbehave.core.embedder.Embedder$RunningStoriesFailed: Failures in running stories: ReportsCount[stories=2,storiesNotAllowed=0,storiesPending=0,scenarios=5,scenariosFailed=4,scenariosNotAllowed=0,scenariosPending=0,stepsFailed=4]
+              <![CDATA[org.jbehave.core.embedder.Embedder$RunningStoriesFailed: Failures in running stories: ReportsCount[stories=2,storiesNotAllowed=0,storiesPending=1,scenarios=5,scenariosFailed=4,scenariosNotAllowed=0,scenariosPending=1,stepsFailed=4]
 	at org.jbehave.core.embedder.Embedder$ThrowingRunningStoriesFailed.handleFailures(Embedder.java:568)
 	at org.jbehave.core.embedder.Embedder.handleFailures(Embedder.java:281)
 	at org.jbehave.core.embedder.Embedder.generateReportsView(Embedder.java:268)

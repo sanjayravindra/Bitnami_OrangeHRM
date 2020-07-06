@@ -8,6 +8,7 @@ import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.Select;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
@@ -43,7 +44,12 @@ public class Employee extends Property
 	public void navigate() throws IOException
 	{
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\sanjay.ravindra\\eclipse-workspace\\OrangeHRM\\src\\main\\resources\\Driver\\chromedriver.exe"); 
-		driver = new ChromeDriver(); 
+		ChromeOptions chromeOptions = new ChromeOptions();
+		chromeOptions.addArguments("--whitelist-ip *");
+		chromeOptions.addArguments("--proxy-server='direct://'");
+		chromeOptions.addArguments("--proxy-bypass-list=*");
+
+		driver = new ChromeDriver(chromeOptions); 
 		driver.manage().window().maximize(); 
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		log.info("browser launched");

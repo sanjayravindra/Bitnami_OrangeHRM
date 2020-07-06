@@ -1,5 +1,5 @@
 OrangeHRM Project
-					 
+								 
 Scenario:  Verify the user is able to login with valid credentials
 Given user should navigate to login page
 When user enters valid credentials
@@ -26,4 +26,4 @@ Then user should able to search an employee with valid employee id and name
 
 Scenario: verify the user is able to logout
 Given user should able to logout
-then user should able close the broswer
+Then user should able close the broswer
