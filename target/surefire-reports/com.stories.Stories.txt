@@ -1,7 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.stories.Stories
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 69.814 sec <<< FAILURE! - in com.stories.Stories
-run on run(com.stories.Stories)(com.stories.Stories)  Time elapsed: 68.829 sec  <<< FAILURE!
-org.jbehave.core.embedder.Embedder$RunningStoriesFailed: Failures in running stories: ReportsCount[stories=2,storiesNotAllowed=0,storiesPending=1,scenarios=5,scenariosFailed=4,scenariosNotAllowed=0,scenariosPending=1,stepsFailed=4]
-
