@@ -1,0 +1,85 @@
+<div class="story">
+<h1>OrangeHRM Project</h1>
+<div class="path">JBehave-story/OrangeHRM.story</div>
+<div class="beforeStorySteps">
+</div>
+<div class="scenario">
+<h2>Scenario: Verify the user is able to login with valid credentials</h2>
+<div class="step successful">Given user should navigate to login page</div>
+<div class="step failed">When user enters valid credentials <span class="keyword failed">(FAILED)</span><br/><span class="message failed">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#txtUsername&quot;}
+  (Session info: chrome=84.0.4147.105)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'
+System info: host: 'SVINLP00304', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\SANJAY~1.RAV\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50077}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 669b761b0346096eb3ebd69d5f02e31f
+*** Element info: {Using=id, value=txtUsername}</span></div>
+<div class="step notPerformed">Then user should redirect to dashboard <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+</div>
+<div class="scenario">
+<h2>Scenario: Verify the user is able to add an employee</h2>
+<div class="step successful">Given user should navigate to add employee page</div>
+<div class="step failed">And user should able to add an employee <span class="keyword failed">(FAILED)</span><br/><span class="message failed">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#menu_pim_addEmployee&quot;}
+  (Session info: chrome=84.0.4147.105)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'
+System info: host: 'SVINLP00304', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\SANJAY~1.RAV\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50077}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 669b761b0346096eb3ebd69d5f02e31f
+*** Element info: {Using=id, value=menu_pim_addEmployee}</span></div>
+<div class="step notPerformed">And user should able to add employee without middle name <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">And user should able to add employee without image <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">Then user should able to add employee without creating login details <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+</div>
+<div class="scenario">
+<h2>Scenario: Verify the user is able to add personal details of an employee</h2>
+<div class="step successful">Given user should navigate to personal details page</div>
+<div class="step failed">Then user should able to add personal details of an employee <span class="keyword failed">(FAILED)</span><br/><span class="message failed">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.105)
+Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'
+System info: host: 'SVINLP00304', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\SANJAY~1.RAV\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50077}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 669b761b0346096eb3ebd69d5f02e31f
+*** Element info: {Using=id, value=menu_pim_addEmployee}</span></div>
+</div>
+<div class="scenario">
+<h2>Scenario: Verify the user is able to search and edit an employee</h2>
+<div class="step failed">Given user should navigate to employee information page <span class="keyword failed">(FAILED)</span><br/><span class="message failed">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.105)
+Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'
+System info: host: 'SVINLP00304', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\SANJAY~1.RAV\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50077}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 669b761b0346096eb3ebd69d5f02e31f
+*** Element info: {Using=id, value=menu_pim_viewPimModule}</span></div>
+<div class="step notPerformed">And user should able to search an employee with valid employee name <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">And user should able to search an employee from suggestion list <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">And user should able to search an employee with partial name and valid employee id <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">And user should able to search an employee with valid employee id <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">Then user should able to search an employee with valid employee id and name <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+</div>
+<div class="scenario">
+<h2>Scenario: verify the user is able to logout</h2>
+<div class="step pending">Given user should able to logout <span class="keyword pending">(PENDING)</span></div>
+<div class="step pending">Then user should able close the broswer <span class="keyword pending">(PENDING)</span></div>
+<div><pre class="pending">@Given(&quot;user should able to logout&quot;)
+@Pending
+public void givenUserShouldAbleToLogout() {
+  // PENDING
+}
+</pre></div>
+<div><pre class="pending">@Then(&quot;user should able close the broswer&quot;)
+@Pending
+public void thenUserShouldAbleCloseTheBroswer() {
+  // PENDING
+}
+</pre></div>
+</div>
+<div class="afterStorySteps">
+</div>
+</div>

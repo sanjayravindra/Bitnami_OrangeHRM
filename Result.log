@@ -1,2 +1,4 @@
-2020-07-08 02:01:37 INFO  Employee:49 - browser launched
-2020-07-08 02:01:39 INFO  Employee:54 - Login page
+2020-08-02 23:46:24 INFO  Employee:49 - browser launched
+2020-08-02 23:46:24 INFO  Employee:54 - Login page
+2020-08-02 23:46:45 FATAL Employee:96 - Failed to navigate to personal information page
+2020-08-02 23:47:06 FATAL Employee:96 - Failed to navigate to personal information page
